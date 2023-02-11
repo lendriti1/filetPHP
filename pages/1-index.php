@@ -2,6 +2,11 @@
 
 <head>
     <title> I LOVE THERANDA</title>
+    <style>
+        body{
+       background-color: whitesmoke; 
+      }
+    </style>
 </head>
 
 <body>

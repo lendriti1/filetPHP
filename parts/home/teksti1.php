@@ -8,8 +8,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <style>
+      
       .div-tekst1abc{
-        height:500px;
+
+        height:auto;
         display:flex;
         align-items: center;
         flex-direction: column;
@@ -23,15 +25,15 @@ letter-spacing: 0.2px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 display: flex;
 justify-content: center;
-margin-top: 10px;
-margin-bottom: -5px;
+margin:10px 0px -5px;
+padding-left: 15px;
 
 
 }
 
 .div-tekstiii2{
 
-height: 80px;
+height: auto;
 width:85%;
 
 
@@ -52,7 +54,7 @@ width:100%;
 .div-tekst3{
 height: 100%;
 width:80%;
-font-size: 16px;
+font-size: 20px;
 font-family:'Courier New', Courier, monospace;
 margin-bottom:10px;
 
@@ -67,28 +69,35 @@ padding-bottom: -20px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
 .div-txt1{
   height: 50px;
 }
 @media screen and (max-width:900px) {
 
 .div-tekstiii2 p{
-
+font-size: 20px;
 padding-right: 66px;
 
 }
+.div-tekstiii2{
+width:70%;
+
+}
+
 .div-teksta2{
 margin-top: 50px;
 margin-bottom: -5px;
 }
+
 }
     </style>
   
 </head>
 
 <body>
-    <div class="div-tekst1abc" style="border:4px solid red">
-<div style="border:4px solid blue;height:450px;">
+    <div class="div-tekst1abc" style="">
+<div style="height:auto;">
 
    
     <div class="div-teksta2">

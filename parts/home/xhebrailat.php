@@ -53,33 +53,41 @@ border-color: #ff9433 transparent  transparent transparent;
 }
 .xhebralilat-p34{
     width: 100%;
-    border: 2px solid none;
+    border: 2px solid blue;
+    height: 60%;
+    font-size: 20px;   
+    display: flex;
+    justify-content: center;
+
+}
+.xhebralilat-p345{
+    width: 80%;
+    border: 2px solid purple;
     height: 80%;
-    font-size: 20px;
-    
-    
+     
 }
 .btn-more{
     border: 2px solid red;
-     width: 95%;
-      height: 25%;
+     width: 100%;
+      height: 20%;
       display: flex;
       justify-content: end;
       align-items:flex-end;
       font-size: 18px;
+     
 }
 .btn-more1{
-    border: 2px solid blue;
-    color:white;
-     width: 20%;
-      height: 60%;
-      border-radius: 10px;
-      background-color: #FF9433;
+    border: 2px solid bluse;
+    color:black;
+     width: 31%;
+      height: 70%;
+ 
        transition: 0.5s;
+       margin:0px 10px 10px 0px;
 }
 .btn-more1:hover{
 
-      background-color:rgba(0, 0, 0, 0.7);
+    
       transition: 0.5s;
     
 }
@@ -104,8 +112,20 @@ border-color: #ff9433 transparent  transparent transparent;
     font-size: 20px;
     }
     .xhebralilat-p34{
-
+ display: flex;
+    justify-content: center;
     font-size: 20px;
+    }
+    .btn-more{
+      width: 100%;
+      font-size:18px;
+ 
+    }
+    .btn-more1{
+      width: 35%;
+           height:50%;
+           margin:10px 10px 10px 0px;
+          
     }
 }
 </style>
@@ -123,10 +143,13 @@ border-color: #ff9433 transparent  transparent transparent;
   <p>XHEBRAILAT</p>
 </div>
 <div class="xhebralilat-p34">
+  <div class="xhebralilat-p345">
   <p>Klubi fan XHEBRAILAT përfaqësöjnë të gjitha sportet e qytetit tone duke bërë tifo me gjithë energjinë që  kanë cdo here në cdo ndeshje. Ata janë krenaria e Therandes.</p>
+  </div>
+  </div>
 <div class='btn-more'>
   <button class="btn-more1">MË SHUMË</button>
-  </div>
+  
 </div>
     </div>
   </div>

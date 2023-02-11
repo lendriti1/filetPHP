@@ -25,14 +25,18 @@
     height: 80%;
      display:flex;
     justify-content:center;
-    align-items: center;
+    align-items: center; 
+    
 }
 .day-foto img{
-  
+    box-shadow: 0px 0px  10px black;
     width: 50%;
     height: 450px;
-    border-radius: 20px; 
+    border-radius: 20px;   
+    transition: 0.5s;
+
 }
+
 .button-day{
     border:1px solid black;
     width: 100%;
@@ -55,6 +59,7 @@
 .change1{
   
     color: #3c3d4e;
+    background-color:#FF9433;
   
     
 }
@@ -109,6 +114,7 @@ transition:0.5s
   cursor: pointer;
   border: none;
   margin: .1em;
+
 }
 
 
@@ -137,6 +143,7 @@ transition:0.5s
     width: 37%;
     height:27%;
      font-size: 20px;
+    
 }
 }
 
@@ -144,9 +151,7 @@ transition:0.5s
 
 
 
-.day-foto img{
-  width:70%;
-}
+
 .button-day1{
 
     width: 80%;
@@ -160,6 +165,7 @@ transition:0.5s
 }
 
 }
+
     </style>
 </head>
 <body>
@@ -190,24 +196,24 @@ transition:0.5s
     <script type="text/javascript">
           $(document).ready(function() {
             $('.change1').click(function() {
-          $(".fotojaPerNdrrim").attr('src','../images/ylli.png');
+     
+          $(".fotojaPerNdrrim").attr({ 'src':'../images/Suhareka.jpg'  });
            $(".change1").css({
-                   'color':'black',
-                   'background-color':'#FF9433',
-                   'transition':'1s'
+                 
+                       'background-color':'#FF9433'
 				});
           $(".change2").css({
-                 
+                  'background-color':'transparent',  
                   
                      'transition':'1s'
 				});
         $(".change3").css({
                    
-                  
+                   'background-color':'transparent',  
                      'transition':'1s'
 				});
         $(".change4").css({
-                   
+                    'background-color':'transparent',  
                    
                      'transition':'1s'
 				});
@@ -215,25 +221,26 @@ transition:0.5s
            });
 
               $('.change2').click(function() {
-              $(".fotojaPerNdrrim").attr('src', "../images/Suhareka.jpg");
+             
 
+            $(".fotojaPerNdrrim").attr('src', "../images/ylli.png");
                  $(".change2").css({
-                  
+                   'background-color':'#FF9433',
                  
                    'transition':'1s'
 				});
           $(".change1").css({
-                   
+                    'background-color':'transparent',  
                   
                      'transition':'1s'
 				});
         $(".change4").css({
-                   
+                    'background-color':'transparent',  
                   
                      'transition':'1s'
 				});
         $(".change3").css({
-                  
+                   'background-color':'transparent',  
                   
                      'transition':'1s'
 				});
@@ -247,21 +254,21 @@ transition:0.5s
 
                 $(".change3").css({
                 
-                 
+                 'background-color':'#FF9433',
                    'transition':'1s'
 				});
             $(".change1").css({
-                  
+                   'background-color':'transparent',  
                    
                      'transition':'1s'
 				});
         $(".change2").css({
-                 
+                  'background-color':'transparent',  
                   
                      'transition':'1s'
 				});
         $(".change4").css({
-                 
+                  'background-color':'transparent',  
                  
                      'transition':'1s'
 				});
@@ -271,22 +278,22 @@ transition:0.5s
               $(".fotojaPerNdrrim").attr('src', "../images/suhareka2.jpg");
               $(".change4").css({
                   
-                  
+                  'background-color':'#FF9433',
                    'transition':'1s'
 				});
 
                   $(".change1").css({
                   
-                  
+                   'background-color':'transparent',  
                      'transition':'1s'
 				});
         $(".change2").css({
                    
-                  
+                   'background-color':'transparent',  
                      'transition':'1s'
 				});
         $(".change3").css({
-                 
+                  'background-color':'transparent',  
                    
                      'transition':'1s'
 				});

@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
   <style>
 .txt{
-    border:1px solid black;
+
     height: 200px;
     width: 100%;
     display: flex;
@@ -25,6 +25,14 @@
   .txt{
     text-align:center;
     font-size: 23px;
+    padding: 0px 30px 0px 30px;
+    
+}
+}
+@media screen and (min-width:501px) and (max-width:920px){
+  .txt{
+    text-align:center;
+    font-size: 35px;
     padding: 0px 30px 0px 30px;
     
 }

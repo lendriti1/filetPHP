@@ -69,27 +69,30 @@
 	border: 5px solid yellow;
 	height: auto;
 	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .bs-p1 {
 	border: 5px solid yellowgreen;
 	height: auto;
-	width: 100%;
+	width: 95%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
 }
 
 .bs-p2 {
-	border: 5px solid gold;
-	height: 300px;
-	width: 450px;
+	
+	height: 320px;
+	width: 400px;
 	float: left;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin:10px 0px 5px 0px;
 }
 
 .bs-p2 p {
@@ -102,24 +105,27 @@
 }
 
 .bs-p2 img {
-	width: 95%;
+	width: 90%;
 	height: 95%;
+	border-radius: 4px;
 }
 
 @media screen and (max-width:500px) {
     
 	.bs-p2 {
-		height: 200px;
+		height: 180px;
 		width: 47%;
 	}
 
 	.bs-p2 p {
-		font-size: 20px;
+		font-size: 12px;
+	
+		
 	}
 
 	.bs-p2 img {
-		width: 100%;
-		height: 96%;
+		width: 94%;
+		height: 95%;
 	}
 
 	.bp3 {
@@ -171,69 +177,32 @@ Ku ndodhen, cilat janë shërbimet e tyre dhe detajet kontaktuese gjithashtu
 </div>
 
 <div class="bs-part1">
+	
   <div class="bs-p1">
-    <div class="bs-p2">
-  <p >SHEMBULLI 1</p>
-      <img src="../images/vera.jpg" alt="">
-    
-    </div>
-   <div class="bs-p2">
-  <p >SHEMBULLI 1</p>
-      <img src="../images/vera.jpg" alt="">
-    
-    </div>
-       <div class="bs-p2">
-  <p >SHEMBULLI 1</p>
-      <img src="../images/vera.jpg" alt="">
-    
-    </div>
-       <div class="bs-p2">
-  <p >SHEMBULLI 1</p>
-      <img src="../images/vera.jpg" alt="">
-    
-    </div>
-       <div class="bs-p2">
-  <p >SHEMBULLI 1</p>
-      <img src="../images/vera.jpg" alt="">
-    
-    </div>
-       <div class="bs-p2">
-  <p >SHEMBULLI 1</p>
-      <img src="../images/vera.jpg" alt="">
-    
-    </div>
+<?php
+     $con =mysqli_connect('localhost','root','','login');     
+	 mysqli_select_db($con,'login');
+         
+     $select = "SELECT * FROM business1;";
+                
+      $query = mysqli_query($con, $select);
+                
+       while($row = mysqli_fetch_array($query))
+        {
+          $fileName = $row['Teksti'];
+           $Foto = $row['FotoSrc'];
+            ?>
 
     <div class="bs-p2">
-  <p >SHEMBULLI 1</p>
-      <img src="../images/vera.jpg" alt="">
-    
-    </div>
+		
+  <p>	<a href="https://www.google.com" style="text-decoration:none;color:white"><?php echo $fileName; ?></p>
+		 	</a>
+      <img src="../images/<?php echo $Foto; ?>" alt="">
+	 
+    </div>	
 
-    <div class="bs-p2">
-  <p >SHEMBULLI 1</p>
-      <img src="../images/vera.jpg" alt="">
-    
-    </div>
-    <div class="bs-p2">
-  <p >SHEMBULLI 1</p>
-      <img src="../images/vera.jpg" alt="">
-    
-    </div>
-    <div class="bs-p2">
-  <p >SHEMBULLI 1</p>
-      <img src="../images/vera.jpg" alt="">
-    
-    </div>
-    <div class="bs-p2">
-  <p >SHEMBULLI 1</p>
-      <img src="../images/vera.jpg" alt="">
-    
-    </div>
-    <div class="bs-p2">
-  <p >SHEMBULLI 1</p>
-      <img src="../images/vera.jpg" alt="">
-    
-    </div>
+     <?php  } ?>
+ 
   </div>
 
 </div>
@@ -242,3 +211,4 @@ Ku ndodhen, cilat janë shërbimet e tyre dhe detajet kontaktuese gjithashtu
 </body>
 
 </html>
+<!-- fix: te bs-ps 	ose me zgovelu font sizen ose me hek in theranda -->

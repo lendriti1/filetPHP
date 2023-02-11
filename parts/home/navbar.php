@@ -98,9 +98,6 @@ letter-spacing: 0.1px;
 <body>
   <section class="nav-bar">
 
- 
-
-
     <nav class="relative flex justify-between items-center  " style="height:90px;background-color: #FF9934;">
       <a class="text-3xl font-bold leading-none" href="#" style="text-decoration:none">
         <div class="icon1">
@@ -109,20 +106,24 @@ letter-spacing: 0.1px;
       </a>
       <div class="lg:hidden">
         <button class="navbar-burger flex items-center  p-3 pr-6" style="font-size:30px;">
-          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars" style="color:black"></i>
         </button>
         
       </div>
     
       <ul class="hidden relative top-1/2  left-1/3 transform -translate-y-1/2
       -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6  " style="height:90px">
-        <li><a class="text-2xl nav-font"  href="../pages/home1.php" >Ballina</a></li>
-     <li><a class="text-2xl nav-font"  href="../pages/home1.php" >Rreth Nesh</a></li>
-        <li><a class="text-2xl nav-font"  href="../pages/home1.php" >Fshatrat</a></li>
-       <li><a class="text-2xl nav-font"  href="../pages/home1.php" >Turizmi</a></li>
-         <li><a class="text-2xl nav-font"  href="../pages/home1.php" >Bizneset</a></li>
+        <li><a class="text-2xl nav-font"  href="../pages/1-index.php" >Ballina</a></li>
+     <li><a class="text-2xl nav-font"   href="../pages/RrethNesh.php" >Rreth Nesh</a></li>
+        <li><a class="text-2xl nav-font"   href="../pages/Fshatrat.php" >Fshatrat</a></li>
+       <li><a class="text-2xl nav-font"  href="../pages/tourism.php" >Turizmi</a></li>
+         <li><a class="text-2xl nav-font"  href="../pages/business.php" >Bizneset</a></li>
         
-          <li><img src="../images/bus.png" alt="" style="width: 70px;height:30px;margin-top: 5px;"></li>
+          <li>
+            <a href="../pages/Linjat.php">
+            <img src="../images/bus.png" alt="" style="width: 70px;height:30px;margin-top: 5px;">
+            </a>
+          </li>
     
              
        
@@ -135,7 +136,7 @@ letter-spacing: 0.1px;
         <div class="flex items-center mb-8" >
           <a class="mr-auto text-3xl font-bold leading-none" href="#" >
           </a>
-          <button class="navbar-close">
+          <button class="navbar-close" style='color:black;'>
             <svg class="h-6 w-6 text-black-900 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="font-size:40px">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
@@ -144,25 +145,25 @@ letter-spacing: 0.1px;
         <div>
           <ul>
             <li class="mb-1">
-              <a class="block p-4 text-3xl font-semibold nav-font2" href="../pages/home1.php" >Ballina</a>
+              <a class="block p-4 text-3xl font-semibold nav-font2"   href="../pages/1-index.php" >Ballina</a>
             </li>
             <li class="mb-1">
-               <a class="block p-4 text-3xl font-semibold nav-font2" href="../pages/home1.php" >Rreth Nesh</a>
+               <a class="block p-4 text-3xl font-semibold nav-font2" href="../pages/RrethNesh.php" >Rreth Nesh</a>
             </li>
             <li class="mb-1">
-              <a class="block p-4 text-3xl font-semibold nav-font2" href="../pages/home1.php" >Fshatrat</a>
+              <a class="block p-4 text-3xl font-semibold nav-font2" href="../pages/Fshatrat.php" >Fshatrat</a>
             </li>
              <li class="mb-1">
-              <a class="block p-4 text-3xl font-semibold nav-font2" href="../pages/home1.php" >Turizmi</a>
+              <a class="block p-4 text-3xl font-semibold nav-font2" href="../pages/tourism.php" >Turizmi</a>
             </li>
             <li class="mb-1">
-             <a class="block p-4 text-3xl font-semibold nav-font2" href="../pages/home1.php" >Bizneset</a>
+             <a class="block p-4 text-3xl font-semibold nav-font2" href="../pages/business.php" >Bizneset</a>
             </li>
            
             
            
             <li class="mb-1">
-                <a class="block p-4 text-4xl font-semibold  " href="../pages/projects.php"  "
+                <a class="block p-4 text-4xl font-semibold  " href="../pages/Linjat.php"  
                   style="text-decoration:none;font-family: 'Racing Sans One';
            color:white;font-size:25px">
              <img src="../images/bus.png" alt="" style="width: 70px;height:30px;margin-top: 5px;">

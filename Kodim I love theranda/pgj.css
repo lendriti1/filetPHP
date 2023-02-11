@@ -1,0 +1,116 @@
+
+
+ body{
+    margin: 0;
+    padding: 0;
+ } 
+
+
+ .bg{
+    border: solid 1px none;
+    width: 100%;
+    height: 640px;
+    background-image: url("pgj.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+
+
+ .pgj-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: solid 1px none;
+ }
+
+ .pgj-div1{
+    border: solid 1px none;
+    display: flex;
+    justify-content: flex-c;
+    width: 70%;
+    height: 100px;
+    flex-direction: column;
+ }
+
+ .pgj-border{
+    border: solid 1px black;
+    width: 100%;
+    height: 2px;
+    margin-top: 0%;
+    background-color: #4d2d0c;
+    margin-top: -2%;
+ }
+
+ .pgj-p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #ff9934;
+     margin-top: 2.3%; 
+ } 
+
+   @media (max-width:1000px){
+      .pgj-border{
+     margin-top: -3%; 
+    } 
+
+    .pgj-p1{
+        margin-top: 4%; 
+    } 
+
+ }
+
+ @media (max-width:600px){
+    .pgj-border{
+   margin-top: -5%; 
+  } 
+
+  .pgj-p1{
+      margin-top: 7%; 
+  }
+
+}
+
+@media (max-width:400px){
+    .pgj-border{
+   margin-top: -7%; 
+  } 
+
+  .pgj-p1{
+      margin-top: 10%; 
+  }
+
+  .pgj-p1{
+    font-size: 24px;
+ } 
+
+}
+ 
+/* pershkrimi */
+ 
+.pgj-div2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border: solid 1px none;
+ }
+
+ .pgj-div3{
+    border: solid 1px none;
+    margin-top: -2%;
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    height: auto;
+ }
+
+
+ .pgj-p2{
+    color: #a89797;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+ }
+
+
+ 
