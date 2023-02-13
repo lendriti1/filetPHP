@@ -1,93 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
 
-
-<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
-<style>
-  .imgcrs1{
-    border:5px solid blue;height: auto;
-    width: 30%;
-  }
-</style>
-</head>
-<body>
-  <div
-  id="carouselExampleCrossfade"
-  class="carousel slide carousel-fade relative"
-  data-bs-ride="carousel"
->
-  <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="0"
-      class="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="1"
-      aria-label="Slide 2"
-    ></button>
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="2"
-      aria-label="Slide 3"
-    ></button>
-  </div>
-  <div class="carousel-inner relative w-full overflow-hidden">
-    <div class="carousel-item active float-left w-full imgcrs1">
-      <img
-        src="https://wallpaperset.com/w/full/a/c/7/369420.jpg"
-        class="block w-full"
-        alt="Wild Landscape"
-      />
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <style>
+      .imgcrs1 {
+        border: 5px solid blue;
+        height: auto;
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="carouselExampleCrossfade"
+      class="carousel slide carousel-fade relative"
+      data-bs-ride="carousel"
+    >
+      <div
+        class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4"
+      >
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCrossfade"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCrossfade"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCrossfade"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner relative w-full overflow-hidden">
+        <div class="carousel-item active float-left w-full imgcrs1">
+          <img
+            src="https://wallpaperset.com/w/full/a/c/7/369420.jpg"
+            class="block w-full"
+            alt="Wild Landscape"
+          />
+        </div>
+        <div class="carousel-item float-left w-full imgcrs1">
+          <img
+            src="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2022/11/u3i2hry7o81ugyjh3ry617tr313-768x432.jpg"
+            class="block w-full"
+            alt="Camera"
+          />
+        </div>
+        <div class="carousel-item float-left w-full imgcrs1">
+          <img
+            src="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2022/11/u3i2hry7o81ugyjh3ry617tr312.jpg"
+            class="block w-full"
+            alt="Exotic Fruits"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+        type="button"
+        data-bs-target="#carouselExampleCrossfade"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon inline-block bg-no-repeat"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+        type="button"
+        data-bs-target="#carouselExampleCrossfade"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon inline-block bg-no-repeat"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-item float-left w-full imgcrs1">
-      <img
-        src="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2022/11/u3i2hry7o81ugyjh3ry617tr313-768x432.jpg"
-        class="block w-full"
-        alt="Camera"
-      />
-    </div>
-    <div class="carousel-item float-left w-full  imgcrs1">
-      <img
-        src="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2022/11/u3i2hry7o81ugyjh3ry617tr312.jpg"
-        class="block w-full "
-        alt="Exotic Fruits"
-      />
-    </div>
-  </div>
-  <button
-    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-    type="button"
-    data-bs-target="#carouselExampleCrossfade"
-    data-bs-slide="prev"
-  >
-    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button
-    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-    type="button"
-    data-bs-target="#carouselExampleCrossfade"
-    data-bs-slide="next"
-  >
-    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-</body>
+  </body>
 </html>

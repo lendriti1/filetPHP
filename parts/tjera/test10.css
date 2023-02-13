@@ -1,243 +1,213 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-
-.divi_kryesor1{
-    border: solid 1px black;
-    width: 99.9%;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.divi_kryesor1 {
+  border: solid 1px black;
+  width: 99.9%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.divi_kryesor2 {
+  border: solid 1px none;
+  width: 80%;
+  height: auto;
+  background-color: #320000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
 
-.divi_kryesor2{
-    border: solid 1px none;
+.div-nisja {
+  border: solid 1px none;
+  width: 30%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-mberritja {
+  border: solid 1px none;
+  width: 30%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-data {
+  border: solid 1px none;
+  width: 30%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-kerko {
+  border: solid 1px none;
+  width: 27%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  text-align: left;
+}
+
+.div-p {
+  border: solid 1px none;
+  display: flex;
+  justify-content: flex-start;
+  width: 55%;
+  height: 50px;
+  align-items: end;
+}
+
+.input-group {
+  border: solid 1px none;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input-group1 {
+  border: solid 1px none;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  margin-top: 5px;
+  width: 68%;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8e7b7b;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  border: solid 1px none;
+  background-color: rgb(41, 162, 39);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+  border-style: none;
+  padding-left: 12px;
+  margin-top: 5px;
+}
+
+.search {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.button p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: azure;
+  font-size: 17px;
+  margin-top: 18%;
+}
+
+@media (max-width: 1200px) {
+  .div-nisja {
+    width: 25%;
+  }
+
+  .div-mberritja {
+    width: 25%;
+  }
+
+  .div-data {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .divi_kryesor2 {
+    flex-direction: column;
+  }
+
+  .div-nisja {
     width: 80%;
-    height:auto;
-    background-color: #320000;
+    height: 25px;
+    margin-top: 10%;
+  }
+
+  .div-mberritja {
+    width: 80%;
+    height: 90px;
+  }
+
+  .div-data {
+    width: 80%;
+    height: 90px;
+  }
+
+  .input-group {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center; 
-    border-radius: 15px;
-}
+  }
 
+  .div-p {
+    width: 75%;
+  }
 
-.div-nisja{
-    border: solid 1px none;
-    width: 30%;
-    height: 130px;
+  .div-kerko {
+    height: 110px;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-}
+    align-items: flex-start;
+  }
 
-
-.div-mberritja{
+  .input-group1 {
     border: solid 1px none;
-    width: 30%;
-    height: 130px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-.div-data{
-    border: solid 1px none;
-    width: 30%;
-    height: 130px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-.div-kerko{
-    border: solid 1px none;
-    width: 27%;
-    height: 130px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-.p{
-    font-size: 15px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #ffffff;
-    text-align: left;
-}
-
-
-.div-p{
-    border: solid 1px none;
-    display: flex;
+    width: 20%;
+    height: 200px;
     justify-content: flex-start;
-    width: 55%;
-    height: 50px;
-    align-items: end;
+    margin-left: -64%;
+  }
+
+  .button p {
+    font-size: 14px;
+    margin-left: -5%;
+  }
+
+  .search {
+    width: 15px;
+    height: 15px;
+  }
 }
 
-
-.input-group{
-    border: solid 1px none;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: flex-end; 
+@media (max-width: 680px) {
+  .div-nisja {
+    margin-top: 20%;
+  }
 }
 
-
-.input-group1{
-    border: solid 1px none;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: center; 
-}
-
-
-.form-control{
-    margin-top: 5px;
-    width: 68%;
-    height: 30px;
-    border-radius: 5px;
-    border-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #8e7b7b;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-
- .button{
-    width: 100px;
-    height: 30px;
-    border: solid 1px none;
-    background-color: rgb(41, 162, 39);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 5px;
-    border-style: none;
-    padding-left: 12px;
-    margin-top: 5px;
- }
-
-
- .search{
-    width: 18px;
-    height: 18px;
-    margin-right: 10px;
-    color: #ffffff;
- }
-
-
- .button p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: azure;
-    font-size: 17px;
-    margin-top: 18%;
- }
-
-
-
-@media (max-width:1200px){
-    
-     
-.div-nisja{
-    width: 25%;
-}
-
-.div-mberritja{
-    width: 25%;
-}
-
-.div-data{
-    width: 25%;
-}
-
-}
-
-
-
-@media (max-width:1000px){
-    
-    .divi_kryesor2{
-        flex-direction: column;
-    }
-     
-
-    .div-nisja{
-        width: 80%;
-        height: 25px;
-        margin-top: 10%;
-    }
-    
-    .div-mberritja{
-        width: 80%;
-        height: 90px;
-    }
-    
-    .div-data{
-        width: 80%;
-        height: 90px;
-    }
-
-    .input-group{
-        display: flex;
-        justify-content: center; 
-    }
-    
-    .div-p{
-        width: 75%;
-    }
-
-    .div-kerko{
-        height: 110px;
-        display: flex;
-        align-items: flex-start;
-    }
-
-    .input-group1{
-        border: solid 1px none;
-        width: 20%;
-        height: 200px;
-        justify-content:flex-start; 
-        margin-left: -64%;
-    } 
-
-    .button p{
-        font-size: 14px;
-        margin-left: -5%;
-     }
-
-     .search{
-        width: 15px;
-        height: 15px;
-     }
-
-    }
-
-
-    @media (max-width:680px){
-
-        
-        .div-nisja{
-            margin-top: 20%;  
-        }
-
-
-    } 
-
-
-    /* .div-kryesor1{
+/* .div-kryesor1{
         border: solid 1px none;
         width: 100%;
         height: 500px;
