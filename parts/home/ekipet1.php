@@ -306,6 +306,7 @@
 
             </article>
           </div>
+
           <div class="card-wrapper">
             <article class="card">
               <a href="https://www.google.com">
@@ -317,6 +318,7 @@
 
             </article>
           </div>
+
           <div class="card-wrapper">
             <article class="card">
               <a href="https://www.google.com">
@@ -351,6 +353,7 @@
 
             </article>
           </div>
+
         </div>
       </div>
     </div>
