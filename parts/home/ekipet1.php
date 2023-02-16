@@ -109,7 +109,7 @@
     }
 
     .card {
-      background: #fff;
+      background: whitesmoke;
       display: flex;
       padding: 2em;
       flex-direction: column;

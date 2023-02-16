@@ -87,13 +87,21 @@
       }
 
       .div-tekstiii2 {
-        width: 70%;
-
+        width: 90%;
       }
 
       .div-teksta2 {
         margin-top: 50px;
         margin-bottom: -5px;
+      }
+
+      .div-tekst3 {
+        height: 100%;
+        width: 100%;
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 10px;
+        margin-left: 35px;
       }
 
     }

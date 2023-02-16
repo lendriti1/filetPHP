@@ -10,7 +10,7 @@
   </script>
   <style>
     .day-night {
-      border: 1px solid black;
+
       width: 100%;
       height: 600px;
       display: flex;
@@ -32,7 +32,7 @@
 
     .day-foto img {
       box-shadow: 0px 0px 10px black;
-      width: 50%;
+      width: 45%;
       height: 450px;
       border-radius: 20px;
       transition: 0.5s;
@@ -40,7 +40,7 @@
     }
 
     .button-day {
-      border: 1px solid black;
+
       width: 100%;
       height: 20%;
       display: flex;
@@ -131,7 +131,7 @@
     @media screen and (max-width:700px) {
       .day-foto img {
 
-        width: 90%;
+        width: 82%;
         height: 95%;
       }
 
