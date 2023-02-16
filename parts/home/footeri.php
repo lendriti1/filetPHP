@@ -623,7 +623,7 @@
     </section>
 
     <script>
-        const top = docuemt.querySelector(".top");
+
     </script>
 </body>
 

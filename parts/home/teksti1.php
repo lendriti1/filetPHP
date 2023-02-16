@@ -123,7 +123,7 @@
       <div class="div-teksti3">
         <div class="div-tekst3">
           <p>
-            Gjatë vizitës së Therandës ju mund të keni rastin të vizitoni atraksione të ndryshme, muzeun e qytetit, teatrin, monumentet kulturore etjer apo në qoftëse jeni të uritur një restaurant do ishte i përkryer Për të shijuar drekën apo darkën në një ndër restaurantet mahnihtëse të qytetit të Therandës, e pas kësaj po që një mbrëmje natën në klube dhe bare në pjesët më trende të qytetit do të ishte përfekte. Lejojini vetes të frymëzoheni nga gëzimet që ju presin në Therandë. Shpresojmë të kaloni një kohë fantastike dhe të paharruar gjatë visitës së Therandës.
+            Gjatë vizitës së Therandës ju mund të keni rastin të vizitoni atraksione të ndryshme duke përfshirë muzeun e qytetit, teatrin, monumentet kulturore e apo në qoftëse jeni të uritur një restaurant do ishte i përkryer Për të shijuar drekën apo darkën në një ndër restaurantet mahnihtëse të qytetit të Therandës, e pas kësaj po që një mbrëmje natën në klube dhe bare në pjesët më trende të qytetit do të ishte përfekte. Lejojini vetes të frymëzoheni nga gëzimet që ju presin në Therandë. Shpresojmë të kaloni një kohë fantastike dhe të paharruar gjatë visitës së Therandës.
           </p>
         </div>
       </div>
