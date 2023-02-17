@@ -35,12 +35,7 @@
             pointer-events: auto;
             opacity: 1;
         }
-
-        .to-top:hover {
-            width: 70px;
-            height: 70px;
-
-        }
+        
     </style>
 </head>
 
