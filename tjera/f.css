@@ -1,8 +1,8 @@
 body {
-  background-color: rgb(168, 165, 165);
+  background-color: whitesmoke;
 }
 .fsht-img1 {
-  border: 4px solid black;
+  border2: 4px solid black;
   width: 100%;
   height: 300px;
   background-image: url("../images/suhareka3.jpg");
@@ -15,7 +15,7 @@ body {
   height: 100px;
 }
 .fsht-title {
-  border: 3px solid blue;
+  border2: 3px solid blue;
   height: 100px;
   width: 100%;
   display: grid;
@@ -24,7 +24,7 @@ body {
 }
 
 .fsht-main {
-  border: 5px solid red;
+  border2: 5px solid red;
   width: 100%;
   height: 600px;
   display: flex;
@@ -32,12 +32,12 @@ body {
 }
 
 .fsht-main-p1 {
-  border: 3px solid blue;
+  border2: 3px solid blue;
   width: 50%;
   height: 100%;
 }
 .main-p1 {
-  border: 3px solid red;
+  border2: 3px solid red;
   width: 100%;
   height: 60%;
   display: flex;
@@ -45,19 +45,19 @@ body {
   align-items: end;
 }
 .main-p11 {
-  border: 3px solid red;
+  border2: 3px solid red;
   width: 88%;
   height: 100%;
 }
 .main-p {
-  border: 3px solid red;
+  border2: 3px solid red;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 .main-p12 {
-  border: 3px solid blue;
+  border2: 3px solid blue;
   width: 20%;
   height: 100%;
   display: flex;
@@ -69,7 +69,7 @@ body {
   justify-content: center;
   width: 100%;
   height: 50%;
-  border: 3px solid black;
+  border2: 3px solid black;
 }
 .main-p12 img {
   width: 100px;
@@ -82,14 +82,19 @@ body {
   margin: 40px 0px 0px 10px;
 }
 .mainn2 {
-  border: 3px solid rgb(13, 227, 255);
+  border2: 3px solid rgb(13, 227, 255);
   width: 100%;
   height: 50%;
   display: flex;
   align-items: center;
+  font-size: 20px;
+  line-height: 30px;
+  color: gray;
+  font-weight: bold;
+  padding-left: 12px;
 }
 .main-p2 {
-  border: 3px solid red;
+  border2: 3px solid red;
   width: 100%;
   height: 40%;
   display: flex;
@@ -97,20 +102,42 @@ body {
   align-items: center;
 }
 .village-search1 {
-  border: 3px solid rgb(226, 1, 226);
+  border2: 3px solid rgb(226, 1, 226);
   width: 100%;
-  height: 25%;
+  height: auto;
   font-size: 40px;
   display: flex;
   align-items: center;
 }
 .village-search2 {
-  border: 3px solid rgb(226, 1, 226);
+  border2: 3px solid rgb(226, 1, 226);
   width: 100%;
-  height: 50%;
+  height: 80%;
+  margin-left: 15px;
+}
+.search-bar {
+  border2: 4px solid red;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  font-size: 20px;
+}
+.bar1 {
+  border2: 4px solid red;
+  width: 100%;
+}
+.bar2 {
+  font-family: cursive;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.bar-color {
+  background-color: green;
 }
 .fsht-main-p2 {
-  border: 3px solid yellow;
+  border2: 3px solid yellow;
   width: 49%; /*later fix for 50 % */
   height: 100%;
   display: flex;
@@ -125,30 +152,31 @@ body {
   align-items: end;
 }
 .fsht-main-p2 img {
-  border: 3px solid blue;
+  border2: 3px solid blue;
   width: 480px;
   height: 95%; /* ose 95% */
 }
 .fsht-villages {
-  border: 4px solid purple;
+  border2: 4px solid purple;
   height: auto;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 .fsht-villages1 {
-  border: 4px solid red;
+  border2: 4px solid red;
   height: auto;
   width: 92%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  margin: 20px 0px 20px 0px;
 }
 .fsht-villages2 {
-  border: 4px solid purple;
-  height: 50px;
-  width: 270px;
+  border: 4px solid #ff9433;
+  height: 80px;
+  width: 280px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,47 +185,183 @@ body {
   text-transform: uppercase;
   font-family: roboto;
   font-weight: bolder;
-  margin: 0px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
+}
+.txt_search {
+  font-size: 30px;
+}
+.center1 {
+  width: 70%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 780px) {
   .fsht-main {
     flex-direction: column;
   }
   .fsht-main-p1 {
     width: 100%;
   }
+  .main-p1 {
+    display: contents;
+  }
+  .main-p11 {
+    width: 100%;
+  }
+
+  .fsht-main {
+    height: auto;
+  }
+  .main-p13 {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height: auto;
+  }
+  .village-search2 {
+    margin-left: 0px;
+  }
+  .main-p12 {
+    width: 100px;
+  }
+  .main-p13 {
+    padding-left: 10px;
+  }
+  .fsht-main-p2 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .harta-thr {
+    width: 95%;
+  }
+  .aaa {
+    justify-content: center;
+  }
+  .bar1 {
+    padding: 0 10px 0 10px;
+  }
+  .fsht-villages {
+    margin-top: 30px;
+  }
+  .main-p12 img {
+    width: 70px;
+    height: 74px;
+  }
+  .main-p11 {
+    margin-top: 30px;
+  }
+  .mainn {
+    margin-bottom: 30px;
+  }
+  .max-w-xl {
+    max-width: 48rem;
+  }
+  .harta-thr {
+    justify-content: center;
+  }
+  .center1 {
+    width: 100%;
+  }
 }
-@media screen and (min-width: 0px) and (max-width: 290px) {
+@media screen and (min-width: 0px) and (max-width: 310px) {
+  body {
+    background-colosr: a red;
+  }
   .fsht-villages2 {
-    border: 4px solid purple;
     height: 45px;
     width: 105px;
     font-size: 13px;
   }
-}
-@media screen and (min-width: 290px) and (max-width: 600px) {
-  .fsht-villages2 {
-    border: 4px solid purple;
-    height: 45px;
-    width: 135px;
-    font-size: 20px;
+  .main-p13 {
+    font-size: 16px;
+  }
+  .mainn2 {
+    font-size: 16px;
+  }
+
+  .fsht-villages1 {
+    justify-content: space-between;
+  }
+  .main-p12 img {
+    width: 70px;
+    height: 74px;
+  }
+  .main-p12 {
+    height: 100px;
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 760px) {
+@media screen and (min-width: 310px) and (max-width: 570px) {
+  body {
+    background-color: a blue;
+  }
   .fsht-villages2 {
-    border: 4px solid purple;
-    height: 45px;
-    width: 180px;
+    height: 55px;
+    width: 145px;
     font-size: 20px;
   }
+  .main-p13 {
+    font-size: 18px;
+  }
+  .main-p12 img {
+    width: 70px;
+    height: 74px;
+  }
+  .main-p12 {
+    height: 100px;
+  }
+  .mainn2 {
+    font-size: 17px;
+
+    padding: 20px 20px 20px 16px;
+  }
+  .fsht-villages1 {
+    width: 100%;
+  }
 }
-@media screen and (min-width: 761px) and (max-width: 970px) {
+
+@media screen and (min-width: 570px) and (max-width: 775px) {
+  body {
+    background-color: plum;
+  }
   .fsht-villages2 {
-    border: 4px solid purple;
     height: 45px;
-    width: 230px;
-    font-size: 20px;
+    width: 180px;
+    font-size: 24px;
+  }
+  .fsht-villages1 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 775px) and (max-width: 950px) {
+  body {
+    background-color: royalblue;
+  }
+  .fsht-villages2 {
+    height: 45px;
+    width: 235px;
+    font-size: 24px;
+  }
+  .fsht-villages1 {
+    width: 100%;
+  }
+  .main-p13 {
+    font-size: 24px;
+  }
+  .harta-thr {
+    height: 85%;
+  }
+  .main-p12 img {
+    width: 70px;
+    height: 74px;
+  }
+  .mainn2 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 775px) and (max-width: 1300px) {
+  .main-p13 {
+    font-size: 26 px;
   }
 }
