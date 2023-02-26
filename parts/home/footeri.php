@@ -266,6 +266,7 @@
             color: #fff;
             top: -48px;
             position: relative;
+            text-decoration: none;
         }
 
         .text1 {
@@ -603,15 +604,15 @@
                             <div class="svg-wrapper">
                                 <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
                                     <rect class="shape" height="60" width="320" />
-                                    <div class="text">Qamil Beqiraj</div>
+                                    <div class="text" style="text-decoration: none;">Qamil Beqiraj</div>
                                 </svg>
                             </div>
                         </a>
-                        <a href="#" class="text-none" target="_blank">
+                        <a href="https://www.instagram.com/lendritttt/" style="text-decoration: none" class="text-none" target="_blank">
                             <div class="svg-wrapper">
                                 <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
                                     <rect class="shape" height="60" width="320" />
-                                    <div class="text">Lendrit Kolgeci</div>
+                                    <div class="text" style="text-decoration: none;">Lendrit Kolgeci</div>
                                 </svg>
                             </div>
                         </a>
