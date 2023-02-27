@@ -16,7 +16,7 @@
       --theme-light: 40, 100%, 97%;
       --theme-dark: 0, 7%, 29%;
       color: hsl(var(--theme-dark));
-      background: hsl(var(--theme-light));
+      background: whitesmoke;
     }
 
     *,
@@ -31,9 +31,7 @@
     }
 
 
-    a:hover {
-      color: hsl(var(--theme-red));
-    }
+
 
     a:focus,
     a:hover {
@@ -512,7 +510,7 @@
       <h2 class="Hidden1">Carousel</h2>
       <article class="Card Card--overlay Card--square" id="card-1">
         <div class="Card__media">
-          <img class="Card__image" alt="Card image description" width="480" height="480" loading="lazy" src="https://images.unsplash.com/photo-1621160471147-c5be030e199b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMxMTEzMw&ixlib=rb-1.2.1&q=85&height=480" />
+          <img class="Card__image" alt="Card image description" width="480" height="480" loading="lazy" src="../images/suhareka2.jpg" />
         </div>
         <div class="Card__main">
           <h2 class="Card__heading">
@@ -524,7 +522,7 @@
       <!--/Card-->
       <article class="Card Card--overlay Card--wide" id="card-2">
         <div class="Card__media">
-          <img class="Card__image" alt="Card image description" width="720" height="480" loading="lazy" src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMxMTE5MA&ixlib=rb-1.2.1&q=85&height=480" />
+          <img class="Card__image" alt="Card image description" width="720" height="480" loading="lazy" src="../images/suhareka2.jpg" />
         </div>
         <div class="Card__main">
           <h2 class="Card__heading">

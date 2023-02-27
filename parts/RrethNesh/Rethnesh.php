@@ -535,41 +535,42 @@
         <div class="start-div">
             <img class="start-img" src="../images/history.png" />
             <p class="start-p">Historiku</p>
-            <button class="button1">
+
+            <a href="historiku.php" class="button1">
                 Më shumë
                 <div class="button1__horizontal"></div>
                 <div class="button1__vertical"></div>
-            </button>
+            </a>
         </div>
 
         <div class="start-div">
             <img class="start-img" src="../images/world.png" />
             <p class="start-p">Pozita Gjeografike</p>
-            <button class="button1">
+            <a href="PozitaGjeografike.php" class="button1">
                 Më shumë
                 <div class="button1__horizontal"></div>
                 <div class="button1__vertical"></div>
-            </button>
+            </a>
         </div>
 
         <div class="start-div">
             <img class="start-img" src="../images/tradita.png" />
             <p class="start-p">Traditat</p>
-            <button class="button1">
+            <a href="Traditat.php" class="button1">
                 Më shumë
                 <div class="button1__horizontal"></div>
                 <div class="button1__vertical"></div>
-            </button>
+            </a>
         </div>
 
         <div class="start-div">
             <img class="start-img" src="../images/president.png" />
             <p class="start-p">Kryetarët</p>
-            <button class="button1">
+            <a href="Kryetaret.php" class="button1">
                 Më shumë
                 <div class="button1__horizontal"></div>
                 <div class="button1__vertical"></div>
-            </button>
+            </a>
         </div>
     </div>
 
