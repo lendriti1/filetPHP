@@ -533,7 +533,7 @@
 
     <div class="start3">
         <div class="start-div">
-            <img class="start-img" src="history-book.png" />
+            <img class="start-img" src="../images/history.png" />
             <p class="start-p">Historiku</p>
             <button class="button1">
                 Më shumë
@@ -543,7 +543,7 @@
         </div>
 
         <div class="start-div">
-            <img class="start-img" src="worldd.png" />
+            <img class="start-img" src="../images/world.png" />
             <p class="start-p">Pozita Gjeografike</p>
             <button class="button1">
                 Më shumë
@@ -553,7 +553,7 @@
         </div>
 
         <div class="start-div">
-            <img class="start-img" src="tradita.png" />
+            <img class="start-img" src="../images/tradita.png" />
             <p class="start-p">Traditat</p>
             <button class="button1">
                 Më shumë
@@ -563,7 +563,7 @@
         </div>
 
         <div class="start-div">
-            <img class="start-img" src="president.png" />
+            <img class="start-img" src="../images/president.png" />
             <p class="start-p">Kryetarët</p>
             <button class="button1">
                 Më shumë
@@ -655,24 +655,24 @@
     <div class="start6">
         <div class="div1">
             <div class="people-div">
-                <img class="people-img" src="population.png" />
+                <img class="people-img" src="../images/3.png" />
                 <p id="timer1" class="people-p">1000</p>
             </div>
 
             <div class="people-div">
-                <img class="people-img" src="lamp.png" />
+                <img class="people-img" src="../images/2.png" />
                 <p id="timer2" class="people-p">344</p>
             </div>
         </div>
 
         <div class="div2">
             <div class="people-div">
-                <img class="people-img" src="siperfaqja.png" />
+                <img class="people-img" src="../images/1.png" />
                 <p id="timer3" class="people-p">431</p>
             </div>
 
             <div class="people-div">
-                <img class="people-img" src="altitude.png" />
+                <img class="people-img" src="../images/4.png" />
                 <p id="timer4" class="people-p">420</p>
             </div>
         </div>

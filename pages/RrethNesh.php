@@ -16,6 +16,9 @@
     ?>
 
     <?php
+    include("../parts/home/carouseli1.php"); // pjesa e nav-barit
+    ?>
+    <?php
     include("../parts/home/footeri.php"); // pjesa e nav-barit
     ?>
 

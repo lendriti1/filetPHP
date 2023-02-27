@@ -191,8 +191,9 @@
             font-size: 18px;
             width: 100%;
             height: auto;
-            color: #dcd7c8;
+            color: white;
             margin: 5px;
+            letter-spacing: 0.5px;
         }
 
         .main321 {
@@ -596,7 +597,7 @@
 
                 <div class="divi-kryesor">
                     <div class="divi-text">
-                        <p class="text1">Zhvilluar, dizajnuar dhe koduar nga:</p>
+                        <p class="f44a1">Zhvilluar, dizajnuar dhe koduar nga:</p>
                     </div>
 
                     <div class="divi-kryesor1">
